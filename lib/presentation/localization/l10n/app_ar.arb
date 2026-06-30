@@ -1,0 +1,34 @@
+{
+  "@@locale": "ar",
+
+  "appName": "ResQRules",
+
+  "langEnglish": "EN",
+  "langArabic": "ع",
+
+  "urgencyCritical": "حرج",
+  "urgencyHigh": "عالي",
+  "urgencyStandard": "عادي",
+
+  "pageCitation": "p.{page}",
+
+  "interventionApplied": "تم تطبيق التدخل",
+  "tierLabel": "المستوى {current} / {max}",
+
+  "endSession": "إنهاء الجلسة",
+  "startAgain": "ابدأ من جديد",
+  "backToHome": "العودة للرئيسية",
+  "protocolNotAvailable": "البروتوكول غير متوفر بعد",
+
+  "overrideJump": "⚡ تحويل إلى: {chart}  (الأولوية {salience})",
+  "overrideGuard": "✓ أنت في {chart} بالفعل — استمرار",
+
+  "connectionErrorRetry": "خطأ في الاتصال — اضغط لإعادة المحاولة",
+  "retry": "إعادة المحاولة",
+
+  "resetSessionTitle": "إعادة ضبط الجلسة",
+  "resetThisChart": "إعادة ضبط هذا المخطط",
+  "chooseDifferentChart": "اختيار مخطط آخر",
+  "returnToChartList": "العودة إلى قائمة المخططات",
+  "cancel": "إلغاء"
+}

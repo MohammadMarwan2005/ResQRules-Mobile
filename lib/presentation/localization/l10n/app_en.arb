@@ -1,0 +1,52 @@
+{
+  "@@locale": "en",
+
+  "appName": "ResQRules",
+
+  "langEnglish": "EN",
+  "langArabic": "ع",
+
+  "urgencyCritical": "CRITICAL",
+  "urgencyHigh": "HIGH",
+  "urgencyStandard": "STANDARD",
+
+  "pageCitation": "p.{page}",
+  "@pageCitation": {
+    "placeholders": { "page": { "type": "String" } }
+  },
+
+  "interventionApplied": "Intervention applied",
+  "tierLabel": "Tier {current} / {max}",
+  "@tierLabel": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+
+  "endSession": "End Session",
+  "startAgain": "Start Again",
+  "backToHome": "Back to Home",
+  "protocolNotAvailable": "Protocol not yet available",
+
+  "overrideJump": "⚡ Switched to: {chart}  (Salience {salience})",
+  "@overrideJump": {
+    "placeholders": {
+      "chart": { "type": "String" },
+      "salience": { "type": "int" }
+    }
+  },
+  "overrideGuard": "✓ Already in {chart} — continuing",
+  "@overrideGuard": {
+    "placeholders": { "chart": { "type": "String" } }
+  },
+
+  "connectionErrorRetry": "Connection error — tap to retry",
+  "retry": "Retry",
+
+  "resetSessionTitle": "Reset session",
+  "resetThisChart": "Reset this chart",
+  "chooseDifferentChart": "Choose a different chart",
+  "returnToChartList": "Return to chart list",
+  "cancel": "Cancel"
+}

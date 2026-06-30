@@ -1,8 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- INTERNET is implied for plugins, declared explicitly for clarity. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="resq_rules"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"><!-- DEV ONLY: backend is plain-HTTP (localhost/10.0.2.2). Remove for HTTPS prod. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
